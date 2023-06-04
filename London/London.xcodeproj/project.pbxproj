@@ -12,6 +12,8 @@
 		3109644F2A18B0D000F87BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3109644E2A18B0D000F87BF4 /* Assets.xcassets */; };
 		310964522A18B0D000F87BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310964502A18B0D000F87BF4 /* LaunchScreen.storyboard */; };
 		3109645C2A18C77800F87BF4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109645B2A18C77800F87BF4 /* LoginView.swift */; };
+		31AB90462A2C9B8100420BB8 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB90452A2C9B8100420BB8 /* DummyViewController.swift */; };
+		31AB90492A2CB96300420BB8 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB90482A2CB96300420BB8 /* LocalState.swift */; };
 		31ADA8312A291D6000F05339 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADA8302A291D6000F05339 /* OnboardingContainerViewController.swift */; };
 		31ADA8332A2929F800F05339 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADA8322A2929F800F05339 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		310964512A18B0D000F87BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		310964532A18B0D000F87BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3109645B2A18C77800F87BF4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		31AB90452A2C9B8100420BB8 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
+		31AB90482A2CB96300420BB8 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		31ADA8302A291D6000F05339 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		31ADA8322A2929F800F05339 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,8 +62,9 @@
 		310964442A18B0CF00F87BF4 /* London */ = {
 			isa = PBXGroup;
 			children = (
-				31ADA82F2A291D1000F05339 /* Onboarding */,
+				31AB90472A2CB94E00420BB8 /* Utils */,
 				310964452A18B0CF00F87BF4 /* AppDelegate.swift */,
+				31ADA82F2A291D1000F05339 /* Onboarding */,
 				3109645A2A18C72500F87BF4 /* Login */,
 				310964592A18C6B000F87BF4 /* Files */,
 			);
@@ -79,10 +84,19 @@
 		3109645A2A18C72500F87BF4 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				31AB90452A2C9B8100420BB8 /* DummyViewController.swift */,
 				310964492A18B0CF00F87BF4 /* LoginViewController.swift */,
 				3109645B2A18C77800F87BF4 /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		31AB90472A2CB94E00420BB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				31AB90482A2CB96300420BB8 /* LocalState.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		31ADA82F2A291D1000F05339 /* Onboarding */ = {
@@ -165,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3109645C2A18C77800F87BF4 /* LoginView.swift in Sources */,
+				31AB90492A2CB96300420BB8 /* LocalState.swift in Sources */,
+				31AB90462A2C9B8100420BB8 /* DummyViewController.swift in Sources */,
 				3109644A2A18B0CF00F87BF4 /* LoginViewController.swift in Sources */,
 				31ADA8332A2929F800F05339 /* OnboardingViewController.swift in Sources */,
 				310964462A18B0CF00F87BF4 /* AppDelegate.swift in Sources */,
