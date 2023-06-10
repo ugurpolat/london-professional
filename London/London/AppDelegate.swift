@@ -7,7 +7,7 @@
 
 import UIKit
 
-let appColor: UIColor = .blue
+let appColor: UIColor = .lightGray
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
