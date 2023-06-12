@@ -13,6 +13,7 @@
 		310964522A18B0D000F87BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310964502A18B0D000F87BF4 /* LaunchScreen.storyboard */; };
 		3109645C2A18C77800F87BF4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109645B2A18C77800F87BF4 /* LoginView.swift */; };
 		310CA4352A310F6D00CF5603 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CA4342A310F6D00CF5603 /* MainViewController.swift */; };
+		3147DFBB2A375EC3001F02E4 /* CurrencyFormatterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3147DFBA2A375EC3001F02E4 /* CurrencyFormatterTest.swift */; };
 		317FDB962A3333C200BB3918 /* AccountSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FDB952A3333C200BB3918 /* AccountSummaryViewController.swift */; };
 		317FDB982A34577F00BB3918 /* AccountSummaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FDB972A34577F00BB3918 /* AccountSummaryHeaderView.swift */; };
 		317FDB9A2A3457FC00BB3918 /* AccountSummaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 317FDB992A3457FC00BB3918 /* AccountSummaryHeaderView.xib */; };
@@ -21,8 +22,20 @@
 		31AB90492A2CB96300420BB8 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AB90482A2CB96300420BB8 /* LocalState.swift */; };
 		31ADA8312A291D6000F05339 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADA8302A291D6000F05339 /* OnboardingContainerViewController.swift */; };
 		31ADA8332A2929F800F05339 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31ADA8322A2929F800F05339 /* OnboardingViewController.swift */; };
+		31EC77422A3647F500782932 /* DecimalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EC77412A3647F500782932 /* DecimalUtils.swift */; };
+		31EC77442A3648BA00782932 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EC77432A3648BA00782932 /* CurrencyFormatter.swift */; };
 		31FD57FE2A3109D000EE3AEE /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD57FD2A3109D000EE3AEE /* UIViewController+Utils.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3147DFB52A375E1B001F02E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3109643A2A18B0CF00F87BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310964412A18B0CF00F87BF4;
+			remoteInfo = London;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		310964422A18B0CF00F87BF4 /* London.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = London.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +46,8 @@
 		310964532A18B0D000F87BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3109645B2A18C77800F87BF4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		310CA4342A310F6D00CF5603 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3147DFB12A375E1B001F02E4 /* LondonUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LondonUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3147DFBA2A375EC3001F02E4 /* CurrencyFormatterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTest.swift; sourceTree = "<group>"; };
 		317FDB952A3333C200BB3918 /* AccountSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewController.swift; sourceTree = "<group>"; };
 		317FDB972A34577F00BB3918 /* AccountSummaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryHeaderView.swift; sourceTree = "<group>"; };
 		317FDB992A3457FC00BB3918 /* AccountSummaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountSummaryHeaderView.xib; sourceTree = "<group>"; };
@@ -41,11 +56,20 @@
 		31AB90482A2CB96300420BB8 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		31ADA8302A291D6000F05339 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		31ADA8322A2929F800F05339 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		31EC77412A3647F500782932 /* DecimalUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalUtils.swift; sourceTree = "<group>"; };
+		31EC77432A3648BA00782932 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		31FD57FD2A3109D000EE3AEE /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3109643F2A18B0CF00F87BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3147DFAE2A375E1B001F02E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				310964442A18B0CF00F87BF4 /* London */,
+				3147DFB22A375E1B001F02E4 /* LondonUnitTests */,
 				310964432A18B0CF00F87BF4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				310964422A18B0CF00F87BF4 /* London.app */,
+				3147DFB12A375E1B001F02E4 /* LondonUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +131,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		3147DFB22A375E1B001F02E4 /* LondonUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3147DFBA2A375EC3001F02E4 /* CurrencyFormatterTest.swift */,
+			);
+			path = LondonUnitTests;
+			sourceTree = "<group>";
+		};
 		317FDB942A33339200BB3918 /* AccountSummary */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +171,8 @@
 			children = (
 				31AB90482A2CB96300420BB8 /* LocalState.swift */,
 				31FD57FD2A3109D000EE3AEE /* UIViewController+Utils.swift */,
+				31EC77412A3647F500782932 /* DecimalUtils.swift */,
+				31EC77432A3648BA00782932 /* CurrencyFormatter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -170,6 +206,24 @@
 			productReference = 310964422A18B0CF00F87BF4 /* London.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3147DFB02A375E1B001F02E4 /* LondonUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3147DFB92A375E1B001F02E4 /* Build configuration list for PBXNativeTarget "LondonUnitTests" */;
+			buildPhases = (
+				3147DFAD2A375E1B001F02E4 /* Sources */,
+				3147DFAE2A375E1B001F02E4 /* Frameworks */,
+				3147DFAF2A375E1B001F02E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3147DFB62A375E1B001F02E4 /* PBXTargetDependency */,
+			);
+			name = LondonUnitTests;
+			productName = LondonUnitTests;
+			productReference = 3147DFB12A375E1B001F02E4 /* LondonUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,11 +231,16 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					310964412A18B0CF00F87BF4 = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					3147DFB02A375E1B001F02E4 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+						TestTargetID = 310964412A18B0CF00F87BF4;
 					};
 				};
 			};
@@ -199,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				310964412A18B0CF00F87BF4 /* London */,
+				3147DFB02A375E1B001F02E4 /* LondonUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +274,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3147DFAF2A375E1B001F02E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -226,6 +293,8 @@
 				31AB90492A2CB96300420BB8 /* LocalState.swift in Sources */,
 				317FDB982A34577F00BB3918 /* AccountSummaryHeaderView.swift in Sources */,
 				31AB90462A2C9B8100420BB8 /* DummyViewController.swift in Sources */,
+				31EC77442A3648BA00782932 /* CurrencyFormatter.swift in Sources */,
+				31EC77422A3647F500782932 /* DecimalUtils.swift in Sources */,
 				3109644A2A18B0CF00F87BF4 /* LoginViewController.swift in Sources */,
 				317FDB9F2A34853F00BB3918 /* AccountSummaryCell.swift in Sources */,
 				31ADA8332A2929F800F05339 /* OnboardingViewController.swift in Sources */,
@@ -236,7 +305,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3147DFAD2A375E1B001F02E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3147DFBB2A375EC3001F02E4 /* CurrencyFormatterTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3147DFB62A375E1B001F02E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310964412A18B0CF00F87BF4 /* London */;
+			targetProxy = 3147DFB52A375E1B001F02E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		310964502A18B0D000F87BF4 /* LaunchScreen.storyboard */ = {
@@ -420,6 +505,47 @@
 			};
 			name = Release;
 		};
+		3147DFB72A375E1B001F02E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 333C6ALC74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugurpolat.LondonUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/London.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/London";
+			};
+			name = Debug;
+		};
+		3147DFB82A375E1B001F02E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 333C6ALC74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugurpolat.LondonUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/London.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/London";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,6 +563,15 @@
 			buildConfigurations = (
 				310964572A18B0D000F87BF4 /* Debug */,
 				310964582A18B0D000F87BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3147DFB92A375E1B001F02E4 /* Build configuration list for PBXNativeTarget "LondonUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3147DFB72A375E1B001F02E4 /* Debug */,
+				3147DFB82A375E1B001F02E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
