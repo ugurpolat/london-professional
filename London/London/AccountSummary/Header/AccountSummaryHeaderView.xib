@@ -12,6 +12,9 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountSummaryHeaderView" customModule="London" customModuleProvider="target">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="NpZ-og-yqY"/>
+                <outlet property="dateLabel" destination="DGU-xD-hxM" id="cL8-oG-RwK"/>
+                <outlet property="nameLabel" destination="ySb-HW-wTq" id="Uhf-Qh-Obb"/>
+                <outlet property="welcomeLabel" destination="pjv-2Z-9nI" id="dff-pn-awc"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
